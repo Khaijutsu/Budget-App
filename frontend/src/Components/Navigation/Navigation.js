@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import tingyun from '../../img/tingyun.jpg'
+import avatar from '../../img/avatar.png'
 import { menuItems } from '../../utils/menuItems'
 import { signout } from '../../utils/Icons'
 
@@ -11,10 +11,10 @@ const Navigation = ({active, setActive}) => {
   return (
     <NavStyled>
       <div className='user-con'>
-        <img src={tingyun} alt=""/>
+        <img src={avatar} alt=""/>
         <div className='text'>
-          <h2>Tingyun</h2>
-          <p>Your Money</p>
+          <h2>Zen</h2>
+          <p>Money in the Making</p>
         </div>
       </div>
       <ul className='menu-items'>

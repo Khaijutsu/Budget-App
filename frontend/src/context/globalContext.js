@@ -89,7 +89,7 @@ export const GlobalProvider = ({children}) => {
       return new Date(b.created_at) - new Date(a.created_at)
     })
 
-    return history.slice(0,3)
+    return history.slice(0,5)
   }
   
   return (
